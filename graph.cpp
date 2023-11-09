@@ -112,10 +112,8 @@ int main()
                     al_new_node->name = (65+j);
                     create_adjacency_linked_list(al_new_node,va_new_node);
                 }
-
             }
-        }
-        
+        }  
     }
 
     printf("Following is the information about the graph to be constructed\n\n");
@@ -157,7 +155,6 @@ for (size_t i = 0; i < NUM_VERTICES; i++)
 
     tail = tail->next_node;//to move to next graph node
 }
-
-
+    
     return 0;
 }
